@@ -1,12 +1,12 @@
 dokku-persistent-storage
 ========================
 
-Basic persistent storage for dokku.
+Basic persistent storage for dokku (https://github.com/progrium/dokku).
 
 Requirements
 ------------
 
-Development version of dokku (https://github.com/progrium/dokku) at or after https://github.com/progrium/dokku/commit/c77cbf1d3ae07f0eafb85082ed7edcae9e836147.
+Development version of dokku at or after https://github.com/progrium/dokku/commit/c77cbf1d3ae07f0eafb85082ed7edcae9e836147.
 
 Installation
 ------------
