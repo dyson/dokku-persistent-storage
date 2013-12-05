@@ -6,7 +6,7 @@ Basic persistent storage for dokku.
 Requirements
 ------------
 
-Development version of dokku (https://github.com/progrium/dokku).
+Development version of dokku (https://github.com/progrium/dokku) at or after https://github.com/progrium/dokku/commit/c77cbf1d3ae07f0eafb85082ed7edcae9e836147.
 
 Installation
 ------------
@@ -28,7 +28,7 @@ Inside this file list one volume-map/volume per line to mount. For example:
 /another/container/path
 ````
 
-This will result in the following arguments being passed to docker during deploy and docker run:
+The above example will result in the following arguments being passed to docker during deploy and docker run:
 
 ````
 -v /host/path:/container:path -v /another/container/path
