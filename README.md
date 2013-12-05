@@ -33,3 +33,10 @@ The above example will result in the following arguments being passed to docker 
 ````
 -v /host/path:/container:path -v /another/container/path
 ````
+
+Move information on docker volumes can be found here: http://docs.docker.io/en/latest/use/working_with_volumes/
+
+License
+-------
+
+MIT.
