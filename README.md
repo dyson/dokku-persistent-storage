@@ -24,14 +24,14 @@ In your applications folder (/home/dokku/app_name) create a file called PERSISTE
 Inside this file list one volume-map/volume per line to mount. For example:
 
 ````
-/host/path:/container:path
+/host/path:/container/path
 /another/container/path
 ````
 
 The above example will result in the following arguments being passed to docker during deploy and docker run:
 
 ````
--v /host/path:/container:path -v /another/container/path
+-v /host/path:/container/path -v /another/container/path
 ````
 
 Move information on docker volumes can be found here: http://docs.docker.io/en/latest/use/working_with_volumes/
