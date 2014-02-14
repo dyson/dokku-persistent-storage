@@ -36,7 +36,7 @@ The above example will result in the following arguments being passed to docker 
 
 Move information on docker volumes can be found here: http://docs.docker.io/en/latest/use/working_with_volumes/ .
 
-_* Lines must end with a new line character. You can verify your line endings with:_ cat -E PERSISTENT_STORAGE
+_* Lines must end with a new line character. You can verify your line endings with:_ `cat -E PERSISTENT_STORAGE`
 _and new line characters will be shown as $._
 
 License
