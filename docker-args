@@ -11,6 +11,6 @@ if [[ -f "$PERSISTENT_FILE_PATH" ]]; then
   do           
     output="$output -v $line"        
   done < $PERSISTENT_FILE_PATH
-    
-  echo "$STDIN$output"
 fi
+
+echo "$STDIN$output"
