@@ -3,6 +3,8 @@ dokku-persistent-storage
 
 Basic persistent storage for dokku (https://github.com/progrium/dokku).
 
+For a more useful dokku plugin, which will also handle persistent storage, check out dokku-docker-options (https://github.com/dyson/dokku-docker-options).
+
 Requirements
 ------------
 
