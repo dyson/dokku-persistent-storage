@@ -8,11 +8,19 @@ PERSISTENT_FILE_PATH="$DOKKU_ROOT/$APP/$PERSISTENT_FILE"
 
 output=""
 if [[ -f "$PERSISTENT_FILE_PATH" ]]; then
-  while read line; do
-    if [ ! -n "$line" ]; then
-      continue
-    fi
-    output="$output -v $line"
+  DONE=false
+  until $DONE; do
+    read line || DONE=true
+    # echo $line
+    [[ ! -n "$line" ]] && continue
+    case "$line" in
+      \#*)
+        continue
+        ;;
+      *)
+        output="$output -v $line"
+        ;;
+    esac
   done < $PERSISTENT_FILE_PATH
 fi
 
