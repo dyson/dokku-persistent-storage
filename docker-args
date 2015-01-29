@@ -7,7 +7,7 @@ PERSISTENT_FILE="PERSISTENT_STORAGE"
 PERSISTENT_FILE_PATH="$DOKKU_ROOT/$APP/$PERSISTENT_FILE"
 
 output=""
-if [[ -f "$PERSISTENT_FILE_PATH" ]] && [[ "$PHASE" == "deploy" ]]; then
+if [[ -f "$PERSISTENT_FILE_PATH" ]] && [[ "$PHASE" != "build" ]]; then
   DONE=false
   until $DONE; do
     read line || DONE=true
