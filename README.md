@@ -1,9 +1,16 @@
+DEPRECIATED
+===========
+
+Docker docker options (a more useful dokku plugin, which will also handles persistent storage) was merged into dokku at https://github.com/progrium/dokku/commit/df8f4fb8824550518b07c87ac56aba568bd81295
+
+There is no need to use this plugin if your running a dokku version after this. This plugin will no longer be maintained.
+
 dokku-persistent-storage
 ========================
 
 Basic persistent storage for dokku (https://github.com/progrium/dokku).
 
-For a more useful dokku plugin, which will also handle persistent storage, check out dokku-docker-options (https://github.com/dyson/dokku-docker-options).
+For a more useful dokku plugin, which will also handles persistent storage, check out dokku-docker-options (https://github.com/dyson/dokku-docker-options).
 
 Requirements
 ------------
