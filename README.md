@@ -1,7 +1,7 @@
 DEPRECIATED
 ===========
 
-Dokku docker options (a more useful dokku plugin, which will also handles persistent storage) was merged into dokku at https://github.com/progrium/dokku/commit/df8f4fb8824550518b07c87ac56aba568bd81295
+Dokku docker options (a more useful dokku plugin, which also handles persistent storage) was merged into dokku at https://github.com/progrium/dokku/commit/df8f4fb8824550518b07c87ac56aba568bd81295
 
 There is no need to use this plugin if your running a dokku version after this. This plugin will no longer be maintained.
 
